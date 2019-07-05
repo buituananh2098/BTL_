@@ -16,5 +16,16 @@ namespace QLLichBay
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            txtUserName.Text = "";
+            txtPassword.Text = "";
+        }
     }
 }
