@@ -1,0 +1,10 @@
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\bin\Debug\QLLichBay.exe.config
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\bin\Debug\QLLichBay.exe
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\bin\Debug\QLLichBay.pdb
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\obj\Debug\QLLichBay.csprojAssemblyReference.cache
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\obj\Debug\QLLichBay.Form1.resources
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\obj\Debug\QLLichBay.Properties.Resources.resources
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\obj\Debug\QLLichBay.csproj.GenerateResource.cache
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\obj\Debug\QLLichBay.csproj.CoreCompileInputs.cache
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\obj\Debug\QLLichBay.exe
+D:\TuanAnh\BTL_Thoa\QLLichBay\QLLichBay\obj\Debug\QLLichBay.pdb
