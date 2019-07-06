@@ -10,16 +10,19 @@ using System.Windows.Forms;
 
 namespace QLLichBay
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            if(txtUserName.Text == "admin" && txtPassword.Text == "admin")
+            {
+                this.Hide();
+            }
         }
 
         private void Button2_Click(object sender, EventArgs e)

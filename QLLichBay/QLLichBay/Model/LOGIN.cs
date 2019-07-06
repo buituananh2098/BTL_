@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
 
-namespace QLLichBay.DAO
+namespace QLLichBay.Model
 {
-    class Dao
+    public partial class LOGIN
     {
-        //private
+        public decimal ID { get; set; }
     }
 }
