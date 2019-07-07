@@ -33,7 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,8 +53,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\Dao.cs" />
-    <Compile Include="Model\LOGIN.cs" />
+    <Compile Include="DAO\AircraftsController.cs" />
+    <Compile Include="DAO\DB\DataRowExtensions.cs" />
+    <Compile Include="DAO\DB\DBSQLServerUtils.cs" />
+    <Compile Include="DAO\DB\DBUtils.cs" />
+    <Compile Include="DAO\OfficesController.cs" />
+    <Compile Include="DAO\RolesController.cs" />
+    <Compile Include="DAO\RoutessController.cs" />
+    <Compile Include="DAO\UsersController.cs" />
+    <Compile Include="DAO\SchedulesController.cs" />
+    <Compile Include="DAO\AirportsController.cs" />
+    <Compile Include="DAO\CountriesController.cs" />
+    <Compile Include="Model\Aircrafts.cs" />
+    <Compile Include="Model\Airports.cs" />
+    <Compile Include="Model\Countries.cs" />
+    <Compile Include="Model\Display.cs" />
+    <Compile Include="Model\Offices.cs" />
+    <Compile Include="Model\Roles.cs" />
+    <Compile Include="Model\Routess.cs" />
+    <Compile Include="Model\Schedules.cs" />
+    <Compile Include="Model\Users.cs" />
     <Compile Include="View\ApplyScheduleChanges.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +126,7 @@
     <EmbeddedResource Include="View\ScheduleEdit.resx">
       <DependentUpon>ScheduleEdit.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

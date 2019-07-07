@@ -73,6 +73,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(309, 32);
             this.txtPassword.TabIndex = 12;
+            this.txtPassword.Text = "123";
             // 
             // txtUserName
             // 
@@ -81,6 +82,7 @@
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(309, 32);
             this.txtUserName.TabIndex = 11;
+            this.txtUserName.Text = "abc@gmail.com";
             // 
             // button2
             // 
@@ -89,7 +91,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 36);
             this.button2.TabIndex = 10;
-            this.button2.Text = "Reset";
+            this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
@@ -126,6 +128,7 @@
             // 
             // Login
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(739, 378);
